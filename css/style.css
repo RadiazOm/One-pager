@@ -1,65 +1,148 @@
 body {
+    background-image: url('background.png');
+    background-color: #cccccc;
+    height: 259vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    color: white;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
+h1 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: 5vw;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    font-size: 9vw;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.blue {
+    text-shadow:
+            3px 3px 0 white,
+            -1px -1px 0 white,
+            1px -1px 0 white;
+            -1px 1px 0 white,
+            1px 1px 0 white;
+    color: blue;
+}
+
+.orange {
+    text-shadow:
+            3px 3px 0 white,
+            -1px -1px 0 white,
+            1px -1px 0 white;
+            -1px 1px 0 white,
+            1px 1px 0 white;
+    color: orange;
+}
+
+
+.town {
+    width: 53vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-size: 2vw;
+    top: 30%;
+    left: 5%;
+}
+
+div h1 {
+    margin: 0;
+}
+
+.quest {
+    width: 53vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 57%;
+    left: 38%;
+    font-size: 2vw;
+}
+
+.pollution {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 71%;
+    left: 29%;
+    font-size: 2vw;
+}
+
+.header {
     display: flex;
     justify-content: space-around;
-    background-color: #3FAEFA;
-}
-
-nav div {
-    background-color: #328BC7;
-    padding: 30px;
-    padding-inline: 50px;
-}
-
-.title p {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 70px;
-    margin: 0;
-}
-
-.title {
-    height: 800px;
-    background-image: url("../img/city.jpg");
-    background-size: cover
-}
-
-.container {
-    background-color: #43647A;
-}
-
-.container div {
-    border: 2px black;
-    margin-inline: 200px;
-}
-
-.container div {
-    font-size: 25px;
-    padding: 20px;
-    background-color: #1F567A;
-    min-width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-div p {
-    margin: 10px;
 }
 
 footer {
+    height: 40vw;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    right: 7.5%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100px;
-    background-color: #3FAEFA;
 }
+
+.links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+
+}
+
+.contact {
+    position: relative;
+    bottom: 2%;
+}
+
+.faq {
+    position: relative;
+    top: 4%;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    bottom: 4%;
+}
+
+
+@supports (-webkit-appearance:none) {
+    .orange {
+        text-shadow: none;
+        -webkit-text-stroke: 0.2vw white;
+    }
+    .blue {
+        text-shadow: none;
+        -webkit-text-stroke: 0.2vw white;
+    }
+
+}
+
+
+/* 4937 */
