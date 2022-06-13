@@ -32,7 +32,7 @@ a {
     text-shadow:
             3px 3px 0 white,
             -1px -1px 0 white,
-            1px -1px 0 white;
+            1px -1px 0 white,
             -1px 1px 0 white,
             1px 1px 0 white;
     color: blue;
@@ -42,7 +42,7 @@ a {
     text-shadow:
             3px 3px 0 white,
             -1px -1px 0 white,
-            1px -1px 0 white;
+            1px -1px 0 white,
             -1px 1px 0 white,
             1px 1px 0 white;
     color: orange;
